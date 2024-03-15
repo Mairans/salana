@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Gargle';
+    src: url('../fonts/garglecd.otf');
+}
+
+* {
+    font-family: 'Gargle', sans-serif;
+    color: #fff;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.social {
+    transition: all .5s;
+    border-radius: 50%;
+}
+
+.social-p:hover {
+    box-shadow: #289D90 3px 33px 17px;
+}
+
+.social-a:hover {
+    box-shadow: #619DCB 3px 33px 17px;
+}
+
+.social-b:hover {
+    box-shadow: #BC34EB 3px 33px 17px;
+}
+.social-r:hover {
+    box-shadow: #289D90 3px 33px 17px;
+}
+
+.social:hover {
+    transform: translateY(-20px);
+}
+
+section {
+    padding-bottom:110px;
+}
+p {
+    text-align: start;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.title {
+    margin-bottom: 0;
+    font-size: 11rem;
+}
+
+.purple {
+    color: #BC34EB;
+}
+
+.blue {
+    color: #619DCB;
+}
+
+.aqua {
+    color: #289D90;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    font-size: 1.5rem;
+    display: flex;
+    gap: 50px;
+}
+
+.nav {
+    transition: all .3s;
+}
+
+.nav-p:hover {
+    text-shadow: #289D90 7px 2px 3px;
+}
+
+.nav-a:hover {
+    text-shadow: #BC34EB 7px 2px 3px;
+}
+
+.nav-b:hover {
+    text-shadow: #BC34EB 7px 2px 3px;
+}
+
+.socials ul {
+    display: flex;
+    align-items:  start;
+    font-size: 1.5rem;
+}
+
+.social {
+    margin-right: 40px;
+}
+
+.social-b {
+    margin-right: 35px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    color: #000;
+    background-color: #BC34EB;
+    font-size: 4rem;
+    padding: 0 18px;
+    border-radius: 9999px;
+    transition: all .5s;
+}
+
+.btn:hover {
+    color: #619DCB;
+    box-shadow: 11px 4px 11px #289D90;
+}
+
+.addres .container {
+    text-align: center;
+}
+
+.contact {
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.contact:hover {
+    text-shadow: #289D90 7px 2px 3px;
+}
+
+.token {
+    text-align: center;
+}
+
+footer {
+    font-size: 2rem;
+    text-align: center;
+    border: 1px solid #BC34EB;
+    border-width: 3px 0 3px 0;
+    padding: 10px 0;
+}
